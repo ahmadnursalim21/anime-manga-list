@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.nav {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.Input-anime {
+  width: 400px;
+  margin: 30px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.Card-container {
+  margin: 250px 0 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Anime-warapper {
+  width: 300px;
+  background-color: violet;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.Anime-warapper:hover {
+  transform: scale(102%);
+  -webkit-transform: scale(102%);
+  -moz-transform: scale(102%);
+  -ms-transform: scale(102%);
+  -o-transform: scale(102%);
+  cursor: pointer;
+}
+
+.Anime-title {
+  margin: 20px 0;
+  height: 40px;
+}
+
+.Anime-image {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Anime-duration {
+  display: block;
+  margin-bottom: 20px 0;
+  height: 40px;
+}
