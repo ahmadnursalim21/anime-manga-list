@@ -26,10 +26,3 @@ export const searchMangaList = async (q) => {
   const data = await search.json();
   return data;
 };
-export const getQuran = async () => {
-  const urlQuran = await fetch(
-    "https://api.npoint.io/99c279bb173a6e28359c/data"
-  );
-  const data = await urlQuran.json();
-  return data;
-};

@@ -17,8 +17,8 @@ function Manga() {
       return (
         <div className="Manga-card" key={i}>
           <h1 className="Managa-title">{manga.title}</h1>
-          <img src={manga.images.jpg.image_url} className="Manga-image" />
-          <h1 className="Manga-type">{manga.type}</h1>
+          {/* <img src={manga.images.jpg.image_url} className="Manga-image" />
+          <h1 className="Manga-type">{manga.type}</h1> */}
         </div>
       );
     });
